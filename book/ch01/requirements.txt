@@ -1,3 +1,0 @@
--r ../requirements.txt
-pytest==5.4.2
-pytype==2020.2.6

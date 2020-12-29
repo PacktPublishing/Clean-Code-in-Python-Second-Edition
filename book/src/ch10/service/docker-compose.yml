@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/code
+    links:
+      - db
+    environment:
+      - LISTEN_PORT=${LISTEN_PORT:-5000}
+      - DBUSER=${DBUSER:-delivery-app}
+      - DBNAME=${DBNAME:-delivery-db}
+      - DBPASSWORD=${DBPASSWORD}
+  db:
+    image: postgres:13
+    volumes:
+      - ./libs/storage/db/sql:/docker-entrypoint-initdb.d/
+    environment:
+      - POSTGRES_USER=${DBUSER:-delivery-app}
+      - POSTGRES_DB=${DBNAME:-delivery-db}
+      - POSTGRES_PASSWORD=${DBPASSWORD}

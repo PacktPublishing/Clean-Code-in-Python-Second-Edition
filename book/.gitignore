@@ -1,5 +1,0 @@
-__pycache__
-*.sw[op]
-.mypy_cache/
-*.tar.gz
-.pytest_cache/
