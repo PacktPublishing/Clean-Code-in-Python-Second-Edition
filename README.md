@@ -9,7 +9,7 @@
 ## Book
 
 The source code for the examples listed in the
-[book](https://www.amazon.com/Clean-Code-Python-Refactor-codebase-ebook/dp/B07G19CHRM/ref=sr_1_1?s=books&ie=UTF8&qid=1535483811&sr=1-1)
+[book](https://www.amazon.com/Clean-Code-Python-maintainable-efficient/dp/1800560214/ref=sr_1_1?dchild=1&keywords=Clean+Code+in+Python+Second+Edition&qid=1609218665&sr=8-1)
 is under ``book/src``.
 
 ## EuroPython 2016 Talk
