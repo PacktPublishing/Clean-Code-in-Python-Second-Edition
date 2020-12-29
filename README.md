@@ -3,14 +3,16 @@
 -----
 *The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
 
-# Clean-code-in-Python
+# Clean code in Python
 
-## EuroPython 2016 talk
+# # EuroPython 2016 Talk
 
-As presented in EuroPython 2016
+Sources of the talk, as presented at EuroPython 2016.
 
-## Book
+The source code of the talk is under talk/src.
 
-"Clean Code in Python".
+Slides EuroPython Page Video
 
-The code for the chapters can be found under the ``book/`` directory.
+Book
+
+The source code for the examples listed in the book is under ''book/src.''
