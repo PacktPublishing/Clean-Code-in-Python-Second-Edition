@@ -51,7 +51,7 @@ Setup
 =====
 Corrections for typos and other mistakes, and improvements like refactoring code is in the below file.
 
-* :errata.md: `./.book/.src/errata.md`
+* :errata.md:`./.book/.src/errata.md`
 
 
 Chapters Index
