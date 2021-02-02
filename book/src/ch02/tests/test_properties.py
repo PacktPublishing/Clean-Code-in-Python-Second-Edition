@@ -34,6 +34,7 @@ class TestProperties(unittest.TestCase):
             (0, 180),
             (0, -180),
             (41, 2),
+            (41.5, 2.1),
         ):
             with self.subTest(case="valid", lat=lat, long=long):
                 coord = Coordinate(lat, long)

@@ -15,9 +15,10 @@ class Coordinate:
 
     @latitude.setter
     def latitude(self, lat_value: float) -> None:
-        if lat_value not in range(-90, 90 + 1):
+        if -90 <= lat_value <= 90:
+            self._latitude = lat_value
+        else:
             raise ValueError(f"{lat_value} is an invalid value for latitude")
-        self._latitude = lat_value
 
     @property
     def longitude(self) -> float:
@@ -25,6 +26,7 @@ class Coordinate:
 
     @longitude.setter
     def longitude(self, long_value: float) -> None:
-        if long_value not in range(-180, 180 + 1):
+        if -180 <= long_value <= 180:
+            self._longitude = long_value
+        else:
             raise ValueError(f"{long_value} is an invalid value for longitude")
-        self._longitude = long_value

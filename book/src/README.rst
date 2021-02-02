@@ -1,6 +1,6 @@
 Clean Code in Python
 --------------------
-Code for the book 'Clean code in Python', second edition.
+Code for the book [Clean code in Python second edition]().
 
 Requirements
 ============
@@ -46,6 +46,11 @@ tested by running the commands on the ``Makefile``::
 
     python -m doctest *.py
     python -m unittest *.py
+
+Setup
+=====
+Corrections for typos and other mistakes, and improvements like refactoring code.
+* [errata.md](./.book/.src/errata.md)
 
 
 Chapters Index

@@ -1,3 +1,5 @@
+PYTHON=python3.9
+
 .PHONY: typehint
 typehint:
 	mypy --ignore-missing-imports src/

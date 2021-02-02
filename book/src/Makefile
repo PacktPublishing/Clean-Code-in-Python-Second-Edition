@@ -15,3 +15,10 @@ setup:
 .PHONY: shell
 shell:
 	docker run -it rmariano/ccip:$(DOCKER_VERSION)
+
+.PHONY:	test
+test:
+	for chapter_dir in $(shell ls -d ch0*); do \
+		echo "Testing $$chapter_dir"; \
+		$(MAKE) test -C $$chapter_dir ; \
+	done
