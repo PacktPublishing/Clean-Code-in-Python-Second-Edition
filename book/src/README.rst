@@ -51,7 +51,7 @@ Important
 =====
 Corrections for typos and other mistakes, and improvements like refactoring code is in the below file.
 
-* link text <./.book/.src/errata.md>_
+* errata.md
 
 
 Chapters Index
