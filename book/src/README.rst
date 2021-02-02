@@ -49,8 +49,8 @@ tested by running the commands on the ``Makefile``::
 
 Setup
 =====
-
 Corrections for typos and other mistakes, and improvements like refactoring code.
+
 * [errata.md](./.book/.src/errata.md)
 
 
