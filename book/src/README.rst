@@ -1,6 +1,6 @@
 Clean Code in Python
 --------------------
-Code for the book [Clean code in Python second edition](https://www.packtpub.com/product/clean-code-in-python-second-edition/9781800560215).
+Code for the book Clean Code in Python Second Edition.
 
 Requirements
 ============
@@ -51,7 +51,7 @@ Important
 =====
 Corrections for typos and other mistakes, and improvements like refactoring code is in the below file.
 
-* :errata.md:`./.book/.src/errata.md`
+* link text <./.book/.src/errata.md>
 
 
 Chapters Index
