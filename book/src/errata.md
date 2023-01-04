@@ -46,3 +46,8 @@ The `longitude.setter` method is changed to:
         else:
             raise ValueError(f"{long_value} is an invalid value for longitude")
 ```
+
+## Page 339 - Under the "Composite" heading, end of second paragraph, fixed typo error
+
+It should be `other intermediate nodes` instead of `other intermediate notes`
+
