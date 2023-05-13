@@ -14,7 +14,7 @@ class ClassMethod:
         return self.method(*args, **kwargs)
 
     def __get__(self, instance, owner):
-        return MethodType(self.method, owner)
+        return MethodType(self, owner)
 
 
 class MyClass:
