@@ -4,7 +4,7 @@ Parametrized decorators using functions
 """
 
 from functools import wraps
-from typing import Sequence, Optional
+from typing import Sequence, Optional, Type
 
 from decorator_function_1 import ControlledException
 from log import logger
@@ -15,7 +15,7 @@ _DEFAULT_RETRIES_LIMIT = 3
 
 def with_retry(
     retries_limit: int = _DEFAULT_RETRIES_LIMIT,
-    allowed_exceptions: Optional[Sequence[Exception]] = None,
+    allowed_exceptions: Optional[Sequence[Type[Exception]]] = None,
 ):
     allowed_exceptions = allowed_exceptions or (ControlledException,)  # type: ignore
 

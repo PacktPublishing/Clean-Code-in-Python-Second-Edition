@@ -3,7 +3,7 @@
 Parametrized decorators using callable objects.
 """
 from functools import wraps
-from typing import Optional, Sequence
+from typing import Optional, Sequence, Type
 
 from decorator_function_1 import ControlledException
 from log import logger
@@ -15,7 +15,7 @@ class WithRetry:
     def __init__(
         self,
         retries_limit: int = _DEFAULT_RETRIES_LIMIT,
-        allowed_exceptions: Optional[Sequence[Exception]] = None,
+        allowed_exceptions: Optional[Sequence[Type[Exception]]] = None,
     ) -> None:
         self.retries_limit = retries_limit
         self.allowed_exceptions = allowed_exceptions or (ControlledException,)
